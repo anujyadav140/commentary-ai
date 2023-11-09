@@ -2,8 +2,5 @@ python-dotenv
 IPython
 moviepy
 opencv-python
-base64
-numpy
 openai
-requests
 streamlit
