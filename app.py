@@ -124,7 +124,8 @@ def merge_audio_video(video_filename, audio_filename, output_filename):
     print(final_clip)
     # Write the result to a file (without audio)
     final_clip.write_videofile(output_filename, 
-    codec='libx264', audio_codec='aac', fps=60)
+                               codec='libx264', audio_codec='aac', fps=24)  # Set the desired frame rate (e.g., 24)
+
     print(output_filename)
     # Close the clips
     video_clip.close()
