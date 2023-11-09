@@ -4,7 +4,6 @@ moviepy
 opencv-python
 openai==0.28
 streamlit
-requests
 base64
 tempfile
 numpy
